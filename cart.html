@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Navbar section -->
+
+<section id="header">
+    <a href="#"><img src="./download.svg" alt="" srcset="" class="logo"></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a   href="./index.html">Home</a></li>
+            <li><a  href="./shop.html">Shop</a></li>
+            <li><a  href="./blog.html">Blog</a></li>
+            <li><a  href="./about.html">About</a></li>
+            <li><a  href="./contact.html">Contact</a></li>
+            <li id="lg-bag"><a class="active" href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+        
+        </ul>
+    </div>
+    <div id="mobile">
+        
+        <a href="./cart.html"><i class="fa-solid fa-bag-shopping" style="color:lightcoral;"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+</section>
+
+<!-- Hero section -->
+
+<section id="page-header" class="about-header">
+    
+    <h2>#Let's Buy Something New!</h2>
+    
+    <p>LEAVE A MESSAGE. We love to hear from you!</p>
+   
+</section>
+ 
+
+
+
+<!-- Cart Details -->
+
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantitive</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><i class="fa-regular fa-circle-xmark"></i><a href="#"></a></td>
+                <td><img src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13969.jpg?w=740&t=st=1701790106~exp=1701790706~hmac=123722d48e9d5aadc57a6aa9758cc6b27a7652ef617a5e37b4d7d8ac008bf596" alt=""></td>
+                <td>Cartoon Astronut T-Shirts</td>
+                <td>$118.3</td>
+                <td><input type="number" value="3"></td>
+                <td>$118.3</td>
+            </tr>
+            <tr>
+                <td><i class="fa-regular fa-circle-xmark"></i><a href="#"></a></td>
+                <td><img src="https://img.freepik.com/premium-photo/flower-leaf-print-white-shirt-isolated-background-created-with-generative-ai-technology_67092-3439.jpg?w=740" alt=""></td>
+                <td>Cartoon Astronut T-Shirts</td>
+                <td>$178.3</td>
+                <td><input type="number" value="3"></td>
+                <td>$178.3</td>
+            </tr>
+            <tr>
+                <td><i class="fa-regular fa-circle-xmark"></i><a href="#"></a></td>
+                <td><img src="https://img.freepik.com/premium-photo/graphic-shirt-trendy-design-mockup_460848-12972.jpg?w=740" alt=""></td>
+                <td>Cartoon Astronut T-Shirts</td>
+                <td>$200.3</td>
+                <td><input type="number" value="3"></td>
+                <td>$200.3</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+<!-- Card Add details -->
+
+<section id="card-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply </button>
+        </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$385</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Totak</strong></td>
+                <td><strong>$385</strong></td>
+            </tr>
+
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- Footer section -->
+<footer class="section-p1">
+    <div class="col" id="fo">
+        <img src="./download.svg" alt="" style="width:250px;" class="logo">
+        <h4>Contact</h4>
+        <p><strong>Adress:</strong>562 Wellington Road, Street 32, San Francisco</p>
+        <p><strong>Phone:</strong>+01 2222 365 / (+91) 01 2345 6789</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-youtube"></i>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contat Us</a>
+
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="https://www.logo.wine/a/logo/App_Store_(iOS)/App_Store_(iOS)-Badge-Alternative-Logo.wine.svg" alt="" style="height: 100px;">
+            <img src="https://www.freepnglogos.com/uploads/google-play-png-logo/new-get-it-on-google-play-png-logo-20.png" alt="" style="height: 100px;">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="https://www.pngitem.com/pimgs/m/651-6513439_payment-icons-paypal-hd-png-download.png" alt="" style="width:300px;">
+
+
+    </div>
+    <div class="copyright">
+        <p>2023, Tech2 etc - HTML CSS Ecommerce Template</p>
+    </div>
+    
+    
+</footer>
+
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
